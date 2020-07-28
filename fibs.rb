@@ -28,10 +28,3 @@ def fibs_rec(n)
         fibs_rec(n-1) << fibs_rec(n-1)[-1] + fibs_rec(n-1)[-2]
     end
 end
-
-[0]
-[0, 1]
-[0, 1, 1]
-[0, 1, 1, 2] # this is 3
-[0, 1, 1, 2, 3]
-[0, 1, 1, 2, 3, 5] # this is fibs(5)
